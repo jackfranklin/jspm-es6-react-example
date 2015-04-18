@@ -19,5 +19,9 @@
       "babel-runtime": "npm:babel-runtime@^5.0.12",
       "core-js": "npm:core-js@^0.8.1"
     }
+  },
+  "devDependencies": {
+    "html-dist": "^0.1.0",
+    "uglifyjs": "^2.4.10"
   }
 }
