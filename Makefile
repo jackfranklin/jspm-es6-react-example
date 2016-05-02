@@ -1,3 +1,13 @@
+install:
+	npm install jspm --save-dev
+	jspm init
+	jspm install core-js
+	jspm install react
+	jspm install react-dom
+	jspm install fetch
+	jspm dl-loader --latest
+	npm install uglifyjs
+	npm install html-dist
 build:
 	- rm -r dist
 	mkdir dist

@@ -14,9 +14,9 @@ System.config({
   },
 
   map: {
-    "babel": "npm:babel-core@5.1.10",
+    "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
-    "core-js": "npm:core-js@2.3.0",
+    "core-js": "npm:core-js@1.2.6",
     "fetch": "github:github/fetch@1.0.0",
     "react": "npm:react@15.0.2",
     "react-dom": "npm:react-dom@15.0.2",
@@ -94,12 +94,6 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:core-js@1.2.6": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
-    "npm:core-js@2.3.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
