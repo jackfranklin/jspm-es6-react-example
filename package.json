@@ -9,19 +9,20 @@
   "author": "",
   "license": "ISC",
   "jspm": {
-    "directories": {},
     "dependencies": {
-      "fetch": "npm:whatwg-fetch@^0.7.0",
-      "react": "npm:react@^0.13.1"
+      "fetch": "github:github/fetch@^1.0.0",
+      "react": "npm:react@^15.0.2",
+      "react-dom": "npm:react-dom@^15.0.2"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.0.12",
-      "babel-runtime": "npm:babel-runtime@^5.0.12",
-      "core-js": "npm:core-js@^0.8.1"
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
     }
   },
   "devDependencies": {
     "html-dist": "^0.1.0",
+    "jspm": "^0.16.34",
     "uglifyjs": "^2.4.10"
   }
 }

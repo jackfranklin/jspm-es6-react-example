@@ -1,10 +1,11 @@
 import 'fetch';
-import React from 'react';
 
+import React from 'react';
+import ReactDOM from 'react-dom';
 import RepositoryList from './repository-list';
 
-class OpenSauce extends React.Component {
-  render() {
+var OpenSauce = React.createClass({
+  render: function() {
     return (
       <div>
         <h2>Repositories for { this.props.name }</h2>
@@ -12,6 +13,6 @@ class OpenSauce extends React.Component {
       </div>
     )
   }
-}
+});
 
-React.render(<OpenSauce name="jackfranklin" />, document.getElementById('app'));
+ReactDOM.render(<OpenSauce name="jackfranklin" />, document.getElementById('app'));
